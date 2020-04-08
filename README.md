@@ -8,8 +8,8 @@ Space Invaders is a simple grid-based game in which you as the shooter have to s
 In this repo, I will be putting extra focus on for loops and classLists in JavaScript. If you want to learn how to use these loops and classLists effectively, please have a look at my code.
 
 
-### We are also going to be looking at:
- * for loops
+### We are also going to be looking at:
+* for loops
 * addEventListener
 * classList
 * document.querySelector

@@ -1,7 +1,7 @@
 # space-invaders
 A vanilla JavaScript game with HTML and CSS
 
-This walkthrogh has been updated. PLease see the newest version of the full walkthrough [here](https://youtu.be/3Nz4Yp7Y_uA) 
+This walkthrough has been updated. Please see the newest version of the full walkthrough [here](https://youtu.be/3Nz4Yp7Y_uA) 
 
 I have kept the styling at a bare miniumum for you to go wild and make it your own. Please tag me as I would LOVE to see your game!!!
 

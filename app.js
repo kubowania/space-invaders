@@ -1,3 +1,4 @@
+alert("Click to OK start game");
 const grid = document.querySelector('.grid')
 const resultsDisplay = document.querySelector('.results')
 let currentShooterIndex = 202
@@ -103,6 +104,12 @@ function shoot(e) {
   let laserId
   let currentLaserIndex = currentShooterIndex
   function moveLaser() {
+    
+    if (currentLaserIndex - width < 0) {
+      squares[currentLaserIndex].classList.remove("laser");
+      return;
+    } else {
+    
     squares[currentLaserIndex].classList.remove('laser')
     currentLaserIndex -= width
     squares[currentLaserIndex].classList.add('laser')
@@ -121,8 +128,8 @@ function shoot(e) {
       resultsDisplay.innerHTML = results
       console.log(aliensRemoved)
 
+      }
     }
-
   }
   switch(e.key) {
     case 'ArrowUp':
